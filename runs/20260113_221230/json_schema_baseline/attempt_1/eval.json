@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "score": 1.0,
+  "error_type": null,
+  "details": {
+    "parsed_data": {
+      "name": "Alex Johnson",
+      "age": 30,
+      "city": "Seattle"
+    }
+  }
+}

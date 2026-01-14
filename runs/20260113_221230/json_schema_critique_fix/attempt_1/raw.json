@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-ubeah181qvyi44kxfvgpe",
+  "object": "chat.completion",
+  "created": 1768360353,
+  "model": "liquid/lfm2.5-1.2b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"name\": \"Alex Johnson\",\n  \"age\": 30,\n  \"city\": \"Seattle\"\n}",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 26,
+    "total_tokens": 214
+  },
+  "stats": {},
+  "system_fingerprint": "liquid/lfm2.5-1.2b"
+}

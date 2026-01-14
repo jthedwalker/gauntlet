@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are a precise coding assistant. Follow instructions exactly."
+  },
+  {
+    "role": "user",
+    "content": "Write a Python function with this exact signature:\n\ndef normalize_phone(s: str) -> str:\n\nRequirements:\n1. Strip all non-digit characters from the input\n2. If the result is exactly 10 digits, format as AAA-BBB-CCCC\n3. If the result is exactly 11 digits AND starts with '1', drop the leading '1' and format as AAA-BBB-CCCC\n4. Otherwise, raise a ValueError\n\nReturn ONLY the function definition. No explanations, no examples, no imports, no markdown code fences - just the raw Python function."
+  }
+]

@@ -1,0 +1,7 @@
+run_id,task_name,strategy_name,attempt_num,success,score,latency_ms,error_type,artifact_dir,created_at
+20260113_221230,json_schema,baseline,1,1,1.0,2277.8640000033192,,runs\20260113_221230\json_schema_baseline\attempt_1,2026-01-13T22:12:33.496904
+20260113_221230,json_schema,critique_fix,1,1,1.0,259.658800001489,,runs\20260113_221230\json_schema_critique_fix\attempt_1,2026-01-13T22:12:33.764505
+20260113_221230,pyfunc,baseline,1,0,0.0,1075.8110000024317,pytest_failure,runs\20260113_221230\pyfunc_baseline\attempt_1,2026-01-13T22:12:35.801283
+20260113_221230,pyfunc,critique_fix,1,0,0.0,1044.0077999955975,pytest_failure,runs\20260113_221230\pyfunc_critique_fix\attempt_1,2026-01-13T22:12:40.333925
+20260113_221230,pyfunc,critique_fix,2,0,0.0,1189.5671999955084,pytest_failure,runs\20260113_221230\pyfunc_critique_fix\attempt_2,2026-01-13T22:12:40.341980
+20260113_221230,pyfunc,critique_fix,3,0,0.0,1229.8917999869445,pytest_failure,runs\20260113_221230\pyfunc_critique_fix\attempt_3,2026-01-13T22:12:40.345933
