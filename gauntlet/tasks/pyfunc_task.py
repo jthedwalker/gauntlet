@@ -36,7 +36,7 @@ def test_invalid_length():
     with pytest.raises(ValueError):
         normalize_phone("123456789")  # 9 digits
     with pytest.raises(ValueError):
-        normalize_phone("12345678901")  # 11 digits not starting with 1
+        normalize_phone("22345678901")  # 11 digits not starting with 1
     with pytest.raises(ValueError):
         normalize_phone("123456789012")  # 12 digits
 
@@ -115,7 +115,7 @@ Return ONLY the function definition. No explanations, no examples, no imports, n
         # Run pytest
         try:
             result = subprocess.run(
-                [sys.executable, "-m", "pytest", "-q", str(test_path)],
+                [sys.executable, "-m", "pytest", "-q", "test_solution.py"],
                 capture_output=True,
                 text=True,
                 timeout=30,
