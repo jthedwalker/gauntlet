@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-44vkjytyf5btue82hu32s",
+  "object": "chat.completion",
+  "created": 1768444169,
+  "model": "liquid/lfm2.5-1.2b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "def normalize_phone(s: str) -> str:\n    cleaned = ''.join(filter(str.isdigit, s))\n    if len(cleaned) == 10:\n        return f\"{cleaned[:3]}-{cleaned[3:6]}-{cleaned[6:]}\"\n    elif len(cleaned) == 11 and cleaned.startswith('1'):\n        cleaned = cleaned[1:]\n        return f\"{cleaned[:3]}-{cleaned[3:6]}-{cleaned[6:]}\"\n    else:\n        raise ValueError(\"Invalid phone number format\")",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 514,
+    "completion_tokens": 135,
+    "total_tokens": 649
+  },
+  "stats": {},
+  "system_fingerprint": "liquid/lfm2.5-1.2b"
+}
