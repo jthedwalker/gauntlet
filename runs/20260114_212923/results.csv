@@ -1,7 +1,0 @@
-run_id,task_name,strategy_name,attempt_num,success,score,latency_ms,error_type,artifact_dir,created_at
-20260114_212923,json_schema,baseline,1,1,1.0,2326.108099994599,,runs\20260114_212923\json_schema_baseline\attempt_1,2026-01-14T21:29:26.056728
-20260114_212923,json_schema,critique_fix,1,1,1.0,246.85759999556467,,runs\20260114_212923\json_schema_critique_fix\attempt_1,2026-01-14T21:29:26.313306
-20260114_212923,pyfunc,baseline,1,0,0.0,1043.7636999995448,pytest_failure,runs\20260114_212923\pyfunc_baseline\attempt_1,2026-01-14T21:29:27.800298
-20260114_212923,pyfunc,critique_fix,1,0,0.0,1045.9410999901593,pytest_failure,runs\20260114_212923\pyfunc_critique_fix\attempt_1,2026-01-14T21:29:32.312276
-20260114_212923,pyfunc,critique_fix,2,0,0.0,1073.5754000052111,pytest_failure,runs\20260114_212923\pyfunc_critique_fix\attempt_2,2026-01-14T21:29:32.315338
-20260114_212923,pyfunc,critique_fix,3,0,0.0,1081.536600002437,pytest_failure,runs\20260114_212923\pyfunc_critique_fix\attempt_3,2026-01-14T21:29:32.317084
